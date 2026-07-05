@@ -10,6 +10,9 @@ UniLend is a full-stack peer-to-peer rental marketplace designed exclusively for
 
 The platform features a custom **Mock Wallet & Escrow Ledger System** powered by MongoDB ACID transactions to ensure secure, concurrent financial operations.
 
+<img width="1920" height="1080" alt="Screenshot (508)" src="https://github.com/user-attachments/assets/b7fe8cce-7ed7-4198-b509-180fcf6e9141" />
+
+
 ## ✨ Key Features
 
 - **Exclusive Campus Access:** JWT-based authentication combined with strict Regex validation (`@stu.manit.ac.in`) to restrict registration solely to verified university students.
@@ -31,43 +34,38 @@ Here is a step-by-step look at how students interact with the UniLend platform:
 
 ### 1. Secure Campus Registration
 Students register using their exclusive university email. Upon login, they are greeted with their digital wallet balance.
-*(Paste Screenshot 1 here)*
-`![Registration Screen](link_to_image_1)`
+<img width="1920" height="1080" alt="Screenshot (501)" src="https://github.com/user-attachments/assets/2aa419da-9d90-4e4a-bcd1-e34d54ea1e60" />
+
 
 ### 2. Browsing the Marketplace
 The homepage displays all available items (textbooks, lab coats, calculators) complete with daily rental rates and required security deposits.
-*(Paste Screenshot 2 here)*
-`![Marketplace Homepage](link_to_image_2)`
+<img width="1920" height="1080" alt="Screenshot (505)" src="https://github.com/user-attachments/assets/5cf780a0-f183-4cb3-80a9-4fe18f639c53" />
+
 
 ### 3. Listing a New Item
 A student lists a spare scientific calculator, setting a custom daily fee and a refundable security deposit to ensure the item's safety.
-*(Paste Screenshot 3 here)*
-`![Create Item Screen](link_to_image_3)`
+<img width="1920" height="1080" alt="Screenshot (510)" src="https://github.com/user-attachments/assets/398d6d7a-544c-41ee-8b9d-e7d1119a9cb8" />
+
 
 ### 4. Viewing Item Details
 Borrowers can click on an item to view details, select their rental dates, and instantly see the total calculated price (Rent + Deposit).
-*(Paste Screenshot 4 here)*
-`![Item Details Screen](link_to_image_4)`
+<img width="1920" height="1080" alt="Screenshot (512)" src="https://github.com/user-attachments/assets/59b0528f-6387-4472-b9c3-f02afaac4153" />
 
-### 5. Requesting a Booking (Escrow Hold)
-When the borrower hits "Request", the total amount is securely deducted from their wallet and held in **Escrow** by the platform to guarantee the funds.
-*(Paste Screenshot 5 here)*
-`![Booking Request Screen](link_to_image_5)`
 
-### 6. Lender Dashboard & Approval
+### 5. Lender Dashboard & Approval
 The item owner receives the request on their personal dashboard and clicks "Approve" to accept the rental terms.
-*(Paste Screenshot 6 here)*
-`![Lender Dashboard](link_to_image_6)`
+<img width="1920" height="1080" alt="Screenshot (492)" src="https://github.com/user-attachments/assets/5c07566e-730e-4584-acc3-0605df7740a4" />
 
-### 7. Active Rental Phase
+
+### 6. Active Rental Phase
 The students meet on campus to hand over the item. The booking status officially transitions to `ACTIVE`.
-*(Paste Screenshot 7 here)*
-`![Active Rental Status](link_to_image_7)`
+<img width="1920" height="1080" alt="Screenshot (493)" src="https://github.com/user-attachments/assets/345dfaa5-ac06-475d-96be-6e66b342c20f" />
 
-### 8. Return & Automated Payout
+
+### 7. Return & Automated Payout
 Once the item is returned safely, the booking is marked `COMPLETED`. The platform automatically releases the escrow: the lender receives the rental fee, and the borrower gets their security deposit refunded to their wallet.
-*(Paste Screenshot 8 here)*
-`![Automated Payout/Ledger Screen](link_to_image_8)`
+<img width="1920" height="1080" alt="Screenshot (497)" src="https://github.com/user-attachments/assets/c93cd0ff-d1e6-4196-9015-fe6a19eed238" />
+
 
 ---
 
